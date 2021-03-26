@@ -1,0 +1,308 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    font-size: 12px;
+}
+
+.navbar .navbar-nav .nav-link{
+    margin-right: 45px;
+    font-weight: 500;
+}
+
+.head{
+    background-color: #42A575;
+    height: 90vh;
+}
+
+.head .tagline{
+    background-color: #E4F1EB; 
+    width: 600px; 
+    height: 275px; 
+    margin-top: 202px;
+    margin-right: -40px;
+    position: relative;
+    z-index: 1;
+}
+
+.head img{
+    position: absolute;
+    margin-top: 140px; 
+    margin-left: -30px;
+    width: 630px;
+}
+
+.head .tagline h1{
+    font-size: 44px; 
+    font-weight: normal; 
+    margin-top: 55px; 
+    margin-left: 16px;
+}
+
+.head .tagline p{
+    font-size: 16px; 
+    font-weight: normal; 
+    margin-top: 12px; 
+    margin-left: 16px;
+}
+
+.service hr {
+    margin-top: 63px; 
+    border:2px solid #147044; 
+    opacity: 100%;
+}
+
+.service h2{
+    font-size: 38px; 
+    color: #288A5B; 
+    font-weight: bold;
+}
+
+.service p{
+    font-size: 18px; 
+    font-weight: bold;
+    color: #747474;
+}
+
+.service .jenis{
+    text-align: center;
+    color: #288A5B;
+    transition: 0.5s;
+}
+
+.service .jenis.putih{
+    background-color: white;
+    width: 363px;
+    height: 363px;
+}
+
+.service .jenis.abu{
+    background-color: #EEEEEE;
+    width: 363px;
+    height: 363px;
+}
+
+.service .jenis i{
+    font-size: 88px;
+}
+
+.service .jenis p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -30px;
+    color: black;
+}
+
+.service .jenis:hover{
+    color: white;
+    background-color: #42A575; 
+    border-radius: 50px;
+    transform: scale(0.95);
+}
+
+.why{
+    height: 560px;
+    margin-top: 150px;
+    box-shadow: 0px 0px 100px #b4b4b4;
+}
+
+.why img{
+    width: 450px;
+    height: 300px;
+    margin-top: 130px;
+    /* margin-left: 100px; */
+}
+
+.why .box{
+    width: 450px;
+    height: 300px;
+    margin-top: -260px;
+    margin-left: 36px;
+    background-color: #197e4d;
+}
+
+.why h2{
+    text-align: right;
+    font-size: 38px; 
+    color: #288A5B; 
+    font-weight: bold;
+    margin-top: 130px;
+}
+
+.why .tagline{
+    text-align: right;
+    font-size: 18px; 
+    font-weight: bold;
+    color: #747474;
+}
+
+.why .isi{
+    text-align: right;
+    margin-top: 50px;
+    font-size: 16px;
+    color: #747474;
+}
+
+.about hr {
+    border:2px solid #147044; 
+    opacity: 100%;
+}
+
+.about h2{
+    margin-top: 155px; 
+    font-size: 38px; 
+    color: #288A5B; 
+    font-weight: bold;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.about{
+    /* background: linear-gradient(100deg, white 50%, #197e4d 50%); */
+    height: 100vh;
+}
+
+.about .img-text{
+    width: 100%;
+    height: 700px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background-color: #288A5B;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.about .img-text h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 110%;
+    font-weight: bold;
+}
+
+.about .img-text p{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.about .single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about .img-area{
+    width: 90%;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 20px;
+    left: 22px;
+}
+
+.about .carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: 30px;
+}
+
+.about .carousel-indicators li{
+    background-color: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.about .carousel-indicators .active{
+    background-color: #ffffff;
+}
+
+.visi{
+    margin-top: 35px;
+}
+
+.visi p{
+    margin-top: 20px;
+    /* border-right: 2px solid #197e4d; */
+    border-left: 2px solid #197e4d;
+    padding-left: 15px;
+}
+
+
+.work hr {
+    margin-top: 400px; 
+    border:2px solid #147044; 
+    opacity: 100%;
+}
+
+.work h2{
+    font-size: 38px; 
+    color: #288A5B; 
+    font-weight: bold;
+}
+
+.work p{
+    font-size: 18px; 
+    font-weight: bold;
+    color: #747474;
+}
+
+.work .box{
+    margin-top: 25px;
+    background-color: #EEEEEE;
+    width: 100%;
+}
+
+.work .img-area{
+    display: block;
+}
+
+.work .img-text{
+    margin-left: 20px;
+}
+
+.work .img-text h2{
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.work .img-text p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.partner hr {
+    border:2px solid #147044; 
+    opacity: 100%;
+}
+
+.partner h2{
+    font-size: 38px; 
+    margin-top: 150px; 
+    color: #288A5B; 
+    font-weight: bold;
+}
+
+footer{
+    background-color: #3FAA7C;
+    height: 400px;
+    color: white;
+}
+
+footer h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer p i{
+    font-size: 36px;
+    margin-right: 15px;
+}
